@@ -79,6 +79,22 @@
 			<artifactId>spring-boot-devtools</artifactId>
 			<optional>true</optional> <!-- Optional is a good practice -->
 		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-web</artifactId>
+		</dependency>
+		<!-- Core Spring Context and Transaction Management -->
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-context</artifactId>
+			<version>6.1.6</version> <!-- Use the appropriate version -->
+		</dependency>
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-tx</artifactId>
+			<version>6.1.6</version> <!-- Use the appropriate version -->
+		</dependency>
+
 	</dependencies>
 
 	<build>
